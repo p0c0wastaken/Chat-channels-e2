@@ -1,0 +1,92 @@
+if(Channel==1){
+    if(dsClk("Chat1")){
+        printColor(vec(0,255,0),"[Channel 1] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==2){
+    if(dsClk("Chat2")){
+        printColor(vec(0,255,0),"[Channel 2] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==3){
+    if(dsClk("Chat3")){
+        printColor(vec(0,255,0),"[Channel 3] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==4){
+    if(dsClk("Chat4")){
+        printColor(vec(0,255,0),"[Channel 4] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==5){
+    if(dsClk("Chat5")){
+        printColor(vec(0,255,0),"[Channel 5] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==6){
+    if(dsClk("Chat1")){
+        printColor(vec(0,255,0),"[Channel 1] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("Chat2")){
+        printColor(vec(0,255,0),"[Channel 2] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("Chat3")){
+        printColor(vec(0,255,0),"[Channel 3] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("Chat4")){
+        printColor(vec(0,255,0),"[Channel 4] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("Chat5")){
+        printColor(vec(0,255,0),"[Channel 5] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")) {
+        printColor(vec(255,0,0),"[ChatAdmin] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+     }
+}
+
+if(Channel==7){
+    if(dsClk("PChat1")){
+        printColor(vec(0,255,0),"[Private Channel 1] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==8){
+    if(dsClk("PChat2")){
+        printColor(vec(0,255,0),"[Private Channel 2] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==9){
+    if(dsClk("PChat3")){
+        printColor(vec(0,255,0),"[Private Channel 3] ",vec(0,0,255),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==10){
+    if(dsClk("RChat")){
+        printColor(vec(255,0,0),"[Red] ",vec(0,255,0),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(255,0,0),"[RVB Moderator] ",vec(0,255,0),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
+if(Channel==11){
+    if(dsClk("BChat")){
+        printColor(vec(0,0,255),"[Blue] ",vec(0,255,0),""+dsGetSender():owner():name()+": ",vec(255,255,255),””+dsGetString())
+    }
+    if(dsClk("ChatAdmin")){
+        printColor(vec(0,0,255),"[RVB Moderator] ",vec(0,255,0),""+dsGetSender():owner():name()+": ",vec(255,255,255),""+dsGetString())
+    }
+}
